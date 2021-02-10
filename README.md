@@ -1,7 +1,7 @@
 # Pewlett-Hackard-Analysis
 
 ## Overview of the Analysis
----
+
 ### Basic Tools
 This project uses PostgreSQL server and pgAdmin management platform to create schema and run queries. When there are large amount of data that excel or python fails to process, databases come in handy. With relationship database, tables of data can be easily manipulated to meet the needs of a certain search or analysis. 
 
@@ -16,7 +16,7 @@ The goal of Pewlett-Hackard analysis is to have the required retiring employeesâ
     Tips: Find employees with their basic information and retrieve more columns from other tables with the help of ERD (Entity Relationship Diagram) to join tables with conditions applied as needed.
 
 ## Results
----
+
 
 From the above two deliverables defined in the project goal section, below are the major points concluded. Pivot table and chart are used to visualize the data.
 
@@ -31,13 +31,14 @@ From the above two deliverables defined in the project goal section, below are t
 
         ![mentionshipEligibility2](resources/mentionshipEligibility2.png)
         Graph B
+        </br>
 
 2. Mentorship Eligibility csv File (see Graph B above)
     * Staff and Senior Engineer job titles have the highest amount of qualifying mentors. Whereas Assistant Engineer and Technique Leader positions have the least qualifying people in the mentorship program.
     * Apart from Manager position, all other job title has mentors available to train the new employees to get ready for the position. 
 
 ## Summary
----
+
 
 * Run the query below, the total number of roles that needs to be filled is 90398.
   
